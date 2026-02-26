@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap");
+
+:root {
+  font-family: "Plus Jakarta Sans", "Segoe UI", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #f6f8ff;
+  background-color: #0b0f19;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background:
+    radial-gradient(circle at 8% 0%, rgba(255, 120, 70, 0.14), transparent 36%),
+    radial-gradient(circle at 88% 10%, rgba(70, 145, 255, 0.2), transparent 30%),
+    linear-gradient(145deg, #080b14 0%, #101726 45%, #0f1c31 100%);
+  color: #f6f8ff;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+button {
+  border-radius: 10px;
+  border: 1px solid transparent;
+  padding: 0.6em 1em;
+  font-size: 1em;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: #1a2740;
+  color: #f7fbff;
+  cursor: pointer;
+  transition: border-color 0.25s, transform 0.25s;
+}
+button:hover {
+  border-color: #6ca4ff;
+  transform: translateY(-1px);
+}
+button:focus,
+button:focus-visible {
+  outline: 2px solid #6ca4ff;
+  outline-offset: 2px;
+}
